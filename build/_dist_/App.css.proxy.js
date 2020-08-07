@@ -1,0 +1,1 @@
+const code="body{margin:0;font-family:Arial, Helvetica, sans-serif}",styleEl=document.createElement("style"),codeEl=document.createTextNode(code);styleEl.type="text/css",styleEl.appendChild(codeEl),document.head.appendChild(styleEl);

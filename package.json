@@ -1,0 +1,29 @@
+{
+  "name": "somehow-horizon",
+  "version": "0.0.1",
+  "description": "3d celestial sphere svelte component with svg output",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "svelte": "^3.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencermountain/somehow-horizon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spencermountain/somehow-horizon/issues"
+  },
+  "homepage": "https://github.com/spencermountain/somehow-horizon#readme",
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.8.1",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/svelte": "^3.0.0",
+    "jest": "^25.4.0",
+    "snowpack": "^2.7.6",
+    "svelte-check": "^0.1.59"
+  }
+}
